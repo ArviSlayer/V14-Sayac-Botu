@@ -26,7 +26,7 @@ module.exports = async (client) => {
   }
 
     console.log(`AKTİF: ${client.user.tag}`);
-    client.user.setActivity("Bu Alt Yapı ArviS#0011 Tarafından Yapılmıştır")
+    client.user.setActivity("ArviS#0011")
 };
 
 
