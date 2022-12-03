@@ -4,6 +4,7 @@
 
 # 🔗・Aşağıdaki Sunucu İçin Yapılmıştır
 https://discord.gg/kkNtPkh9kc
+#
 
 # 📞・İLETİŞİM
 💙・**Discord:** ArviS#0011
