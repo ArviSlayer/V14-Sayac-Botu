@@ -9,17 +9,17 @@
 
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArviSlayer/V14-Ayarlamali-Sayac-Botu.git"
+    "url": "git+https://github.com/ArviSlayer/V14-Sayac-Botu.git"
   },
 
   "author": "ArviS#0011",
   "license": "MIT",
 
   "bugs": {
-    "url": "https://github.com/ArviSlayer/V14-Ayarlamali-Sayac-Botu/issues"
+    "url": "https://github.com/ArviSlayer/V14-Sayac-Botu/issues"
   },
 
-  "homepage": "https://github.com/ArviSlayer/V14-Ayarlamali-Sayac-Botu#readme",
+  "homepage": "https://github.com/ArviSlayer/V14-Sayac-Botu#readme",
   "dependencies": {
     "@discordjs/rest": "^1.1.0",
     "croxydb": "^0.0.7",
