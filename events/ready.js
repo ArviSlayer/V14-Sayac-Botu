@@ -16,9 +16,9 @@ const client = new Client({
 
 module.exports = async (client) => {
 
-  const rest = new REST({ version: "10" }).setToken(TOKEN || process.env.token);
+  const rest = new REST({ version: "10" }).setToken("");
   try {
-    await rest.put(Routes.applicationCommands(client.user.id), {
+    
       body: client.commands,
     });
   } catch (error) {
@@ -26,7 +26,7 @@ module.exports = async (client) => {
   }
 
     console.log(`AKTİF: ${client.user.tag}`);
-    client.user.setActivity("ArviS#0011")
+    client.user.setActivity("Marvel | #SOHBET")
 };
 
 

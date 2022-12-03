@@ -3,23 +3,23 @@ const { PermissionsBitField } = require("discord.js")
 const ArvisDB = require("croxydb");
 module.exports = {
     name: "hoşgeldin-sistemi",
-    description: "Hoş Geldin Sistemini Ayarlamanızı Sağlar",
-    type: 1,
-    options: [
-        {
+    description: "Hoş Geldin Sistemini Ayarlamanızı Sağlar",// ArviS#0011
+    type: 1,// ArviS#0011
+    options: [// ArviS#0011
+        {// ArviS#0011
             name: "kanal",
             description: "Hoş Geldin Kanalını Ayarlamanızı Sağlar",
-            type: 7,
+            type: 7,// ArviS#0011
             required: true,
-            channel_types: [0]
+            channel_types: [0]// ArviS#0011
         },
-
+// ArviS#0011
         {
             name: "giris-mesaj",
             description: "Hoş Geldin Kanalına Atılacak Giriş Mesajını Ayarlamanızı Sağlar",
             type: 3,
             required: false
-        },
+        },// ArviS#0011
 
         {
             name: "cikis-mesaj",
@@ -28,9 +28,9 @@ module.exports = {
             required: false
         }
     ],
-    run: async (client, interaction) => {
+    run: async (client, interaction) => {// ArviS#0011
 
-        const row = new Discord.ActionRowBuilder()
+        const row = new Discord.ActionRowBuilder()// ArviS#0011
 
             .addComponents(
                 new Discord.ButtonBuilder()
@@ -54,7 +54,7 @@ module.exports = {
                 new Discord.ButtonBuilder()
                     .setEmoji("🔐")
                     .setLabel("Sistemi Kapat")
-                    .setStyle(Discord.ButtonStyle.Danger)
+                    .setStyle(Discord.ButtonStyle.Danger)// ArviS#0011
                     .setCustomId("kapat1")
             )
 
@@ -67,13 +67,13 @@ module.exports = {
         if (!interaction.member.permissions.has(PermissionsBitField.Flags.ManageChannels)) return interaction.reply({ embeds: [embed], ephemeral: true })
 
         const gMesaj = interaction.options.getString('giris-mesaj')
-        const cMesaj = interaction.options.getString('cikis-mesaj')
-        const kanal = interaction.options.getChannel('kanal')
+        const cMesaj = interaction.options.getString('cikis-mesaj')// ArviS#0011
+        const kanal = interaction.options.getChannel('kanal')// ArviS#0011
 
         ArvisDB.set(`hgbb_${interaction.guild.id}`, kanal.id)
-        ArvisDB.set(`hgbbCikisMesaj_${interaction.guild.id}`, cMesaj)
-        ArvisDB.set(`hgbbGirisMesaj_${interaction.guild.id}`, gMesaj)
-
+        ArvisDB.set(`hgbbCikisMesaj_${interaction.guild.id}`, cMesaj)// ArviS#0011
+        ArvisDB.set(`hgbbGirisMesaj_${interaction.guild.id}`, gMesaj)// ArviS#0011
+// ArviS#0011
         const kanalEmbed = new Discord.EmbedBuilder()
             .setTitle("Başarıyla Ayarlandı")
             .setDescription("Hoş Geldin Sistemi Başarıyla Ayarlandı")
@@ -82,11 +82,11 @@ module.exports = {
 
         if (gMesaj, cMesaj) return interaction.reply({ embeds: [kanalEmbed], components: [row1] })
         if (!gMesaj, !cMesaj) return interaction.reply({ embeds: [kanalEmbed], components: [row1] })
-    }
-};
+    }// ArviS#0011
+};// ArviS#0011
+// ArviS#0011
 
-
-
+// ArviS#0011
 
 
 

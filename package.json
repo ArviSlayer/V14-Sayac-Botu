@@ -1,14 +1,25 @@
 {
-  "name": "arvis-hos-geldin-botu",
+  "name": "marvel-sayac",
   "version": "9.9.9",
-  "description": "ArviS - V14 Slashlı Hoş Geldin Botu",
-  "main": "index.js",
+  "description": "Marvel #SOHBET Sunucusunun Sayaç Botu",
+  "main": "arvis.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node arvis.js"
   },
-  
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArviSlayer/V14-Ayarlamali-Sayac-Botu.git"
+  },
+
   "author": "ArviS#0011",
   "license": "MIT",
+
+  "bugs": {
+    "url": "https://github.com/ArviSlayer/V14-Ayarlamali-Sayac-Botu/issues"
+  },
+
+  "homepage": "https://github.com/ArviSlayer/V14-Ayarlamali-Sayac-Botu#readme",
   "dependencies": {
     "@discordjs/rest": "^1.1.0",
     "croxydb": "^0.0.7",
@@ -20,7 +31,7 @@
     "request": "^2.88.2"
   },
 
-   "engines": {
+  "engines": {
     "node": "16.x"
   }
 }

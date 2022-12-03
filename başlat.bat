@@ -1,8 +1,8 @@
-echo off
-title ArviS - Hos Geldin Botu
-color c
+@echo off
+color 04
+title Marvel - Sayac
 cls
 :a
-node index.js
+node arvis.js
 goto a
 pause
