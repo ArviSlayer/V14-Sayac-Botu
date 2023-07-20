@@ -1,17 +1,22 @@
 # 🤖・Bota BİLEREK 3 Farklı Hata Bırakıldı
 ⭐・3 Hatayıda Çözüp Botu Başlatabilirsiniz
 # 
+#
 
-# 🔗・Aşağıdaki Sunucu İçin Yapılmıştır
-https://discord.gg/kkNtPkh9kc
+# 💵・Hatalarla Uğraşmak İstemiyorsanız Satın Alabilirsiniz
+
+
+
+# 
 #
 
 # 📞・İLETİŞİM
-💙・**Discord:** ArviS#0011
+💙・**Discord:** arvis.
 
 🔗・**Destek Sunucusu:** [Tıkla](https://discord.gg/3AfAFE5qYg)
 
 💜・**Instagram:** [Tıkla](https://www.instagram.com/arvis_here/)
+#
 #
 
 # 📷・GÖRSELLER
@@ -19,3 +24,5 @@ https://discord.gg/kkNtPkh9kc
 
 ![image](https://user-images.githubusercontent.com/69751083/205449175-979b4501-12bb-4068-a9bd-dc3a880ef1b9.png)
 
+# ❗・NOT
+😙・Hata çözümleri için yardım istemeyin. Hatalar, "gerçekten bilgisi olupta çözebilenlerle kullansın" diye var. O yüzden "hataları söyler misin? Hatalar konusunda yardımcı olur musun?" gibi sorularla gelmeyin.
