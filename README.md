@@ -4,9 +4,9 @@
 #
 
 # 💵・Hatalarla Uğraşmak İstemiyorsanız Satın Alabilirsiniz
+https://www.itemsatis.com/discord/v14-sayac-botu-1741571.html
 
-
-
+https://www.itempazar.com/discord-uye-nitro-sunucu/v14-sayac-botu-109947
 # 
 #
 
